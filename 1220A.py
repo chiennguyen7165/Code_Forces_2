@@ -1,0 +1,5 @@
+n = int(input())
+s = input()
+so1 = s.count("n")
+so0 = s.count("z")
+print("1 " * so1 + "0 " * so0)
