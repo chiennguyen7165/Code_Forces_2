@@ -1,0 +1,5 @@
+n = int(input())
+a = input()
+aL = list(map(int, a.split()))
+r = list(map(lambda item: item - 1 if item % 2 == 0 else item, aL))
+print(" ".join(str(i) for i in r))
